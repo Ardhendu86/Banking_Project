@@ -1,0 +1,215 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+/* here we will write a code header*/
+
+.ctn1{
+    height: 620px;
+    width: 80%; 
+    border-radius: 15px;
+    box-shadow: 0px 0px 25px rgb(107, 105, 105);
+    position: relative;
+    margin-top:65px;
+    margin-left: 155px;
+    background-image: url(https://assets-global.website-files.com/61a69aae1085c8c69d6cefaf/6415e5996b3e958d90af3f34_ar-foundation-image-tracking-p-800.jpg);
+    background-size: cover;
+}
+
+.ctn1 img{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    /* border: 1px solid cornflowerblue; */
+    border-radius: 50px;
+    margin-top: 10px;
+    margin-left: 30px;
+    background-color:rgb(73, 63, 139);
+}
+.ctn1 h1{
+    position: absolute;
+    font-size: 35px;
+    font-weight: 200;
+    margin-top: 58px;
+    margin-left: 140px;
+    color:#fff;
+    font-style: italic;
+}
+
+ .btn a
+{
+    position: absolute;
+}
+.btn button
+{
+    width: 120px;
+    border-radius: 15px;
+    font-size: 35px;
+    margin-top: 45px;
+    border: none;
+    color: #fff;
+    background-image: url(acountcolour.jpeg);
+}
+
+.btn .signup
+{
+    margin-left: 740%;
+    /* color: #fff;
+    font-size: 35px;
+    margin-left:903px;
+    margin-top: 45px;
+    text-decoration: none; */
+}
+.btn .login
+{
+    margin-left: 590%;
+   
+}
+.btn .admin
+{
+    margin-left: 890%;
+   
+}
+ .signup:hover
+{
+   border: 1px solid rgb(216, 216, 216);
+}
+.login:hover
+{
+   border: 1px solid rgb(231, 231, 231);
+}
+.admin:hover
+{
+   border: 1px solid rgb(240, 240, 240);
+}
+
+.article h2
+{
+    height: 32px;
+    width: 260px;
+    font-size:30px;
+    font-weight: 500px;
+    position: absolute;
+    /* border: 1px solid red; */
+    margin-top: 172px;
+    margin-left: 840px;
+    color: #fff;
+}
+.article h3
+{
+    height:32px;
+    width: 260px;
+    font-size: 25px;
+    position: absolute;
+    /* border: 1px solid red; */
+    margin-top:204px;
+    margin-left: 840px;
+    font-style: italic;
+    color: #fff;
+}
+.article p
+{
+    height: 100px;
+    width: 260px;
+    font-size: 12px;
+    margin-top:260px;
+    margin-left: 875px;
+    position: absolute;
+    color: #fff;
+}
+.article .accno1
+{
+    height: 40px;
+    width: 212px;
+    margin-top:352px;
+    margin-left:900px;
+    position: absolute;
+    color: #fff; 
+    background: rgb(214, 89, 22);
+    border-radius: 25px;
+    border: 0;
+    box-shadow: 0px 0px 15px darkgrey;
+}
+
+.ctn1 .space
+{
+    height: 150px;
+    width: 100%;
+    background: #fff;
+    box-shadow: 0px 0px 25px rgb(107, 105, 105);
+    position: absolute;
+    margin-top:470px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.space .spaceimg
+{
+   
+    height:520px;
+    width:544px;
+    /* border: 1px solid red; */
+    position: absolute;
+    bottom: 36px;
+    background-size: cover;
+    margin-left:100px;
+    background-image: url(acountpicture.png);
+    /* background-image: url(https://png.pngtree.com/png-clipart/20211116/original/pngtree-cartoon-concept-illustration-of-online-banking-service-png-image_6937278.png); */
+   
+}
+.space h4{
+    font-size: 25px;
+    color: darkorange;
+    margin-left:860px;
+    margin-top: 10px;
+}
+.space p
+{
+    height: 60px;
+    width:304px;
+    font-size: 15px;
+    margin-left:750px;
+    margin-top: 10px;
+}
+/*------------------------------*/
+
+
+
+
+/* here we will write a code footer*/
+
+footer
+{
+    height: 150px;
+    width: auto;
+    background-color: rgb(202, 193, 193);
+    box-shadow: 0px 0px 20px silver;
+    margin-top: 75px;
+}
+.contact h2
+{
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 2px;
+}
+.contact i
+{
+    font-size: 17px;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+footer h4{
+    height: 35px;
+    width: auto;
+    margin-top:47px;
+    color: #fff;
+    background-color: #111010;
+    text-align: center;
+    padding-top: 4px;
+    font-size: 20px;
+}
+
+
+/*-------------------*/

@@ -1,0 +1,185 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.ctn1{
+    height: 130px;
+    width: auto;
+    border-radius: 15px;
+    box-shadow: 0px 0px 25px rgb(107, 105, 105);
+    position: relative;
+    margin-top: 10px;
+}
+
+.ctn1 img{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    margin-top: 10px;
+    margin-left: 30px;
+    background-color:rgb(73, 63, 139);
+}
+.ctn1 h1{
+    position: absolute;
+    font-size: 35px;
+    font-weight: 200;
+    margin-top: 58px;
+    margin-left: 140px;
+    color:#111010;
+    font-style: italic;
+}
+
+ .btn a
+{
+    position: absolute;
+}
+.btn button
+{
+    width: 120px;
+    border-radius: 15px;
+    font-size: 35px;
+    margin-top: 45px;
+    border: none;
+    background-color: #fff;
+    color: #111010;
+}
+
+.btn .sign
+{
+    margin-left: 740%;
+   
+   
+}
+.btn .login
+{
+    margin-left: 590%;
+   
+}
+.btn .admin
+{
+    margin-left: 890%;
+   
+}
+ .sign:hover
+{
+   border: 1px solid black;
+}
+.login:hover
+{
+   border: 1px solid black;
+}
+.admin:hover
+{
+   border: 1px solid black;
+}
+/*----------------------------------------*/
+
+.main{
+    height: 450px;
+    width: 70%;
+    margin-top:58px;
+    margin-left:180px;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    background-image: url(withdrawbackground.png);
+    border-radius:34px;
+    box-shadow: 0 0 18px slategray;
+    /* background-image: url(data:image/webp;base64,UklGRigBAABXRUJQVlA4IBwBAAAQHQCdASqQASwBPt1utFSopiUjICgBEBuJaW7hd2EbQArN2yiT2ych77ZOQ9+RtL9PbJyHvtk5EmGGn0u14uTkPfbJyHvtk5D32ych77ZjLT2ych77ZOQ+A/7aVAsl2vFych78WEF2lQLJdrxcnIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D1gAAP7/s9ZsR2/QfFkii9yqHc1ByWFpQ9NLAADPdwXW0iAAAAAAAAAAAAAAAA==); */
+}
+.main h1
+{
+    position: absolute;
+    left: 690px;
+    top: 20px;
+    font-size:32px;
+    color:cornflowerblue;
+}
+.main .image
+{
+    height: 440px;
+    width: 610px;
+    margin-top:4px;
+    margin-right: 18px;
+    background-image: url(depositepic.webp);
+    background-size: cover;
+   
+}
+.main form
+{
+    height: 320px;
+    width: 260px;
+    margin-top:72px;
+    /* background: rgb(189, 221, 241); */
+    background-image: url(withdrawbackground.png); 
+}
+
+form input
+{
+    height: 51px;
+    width: 254px;
+    border-radius: 25px;
+    border: 0;
+    text-align: center;
+    margin-left:2px;
+    margin-top: 40px;
+    font-size: 18px;
+    box-shadow: 0px 0px 16px rgb(48, 46, 46);
+}
+.btn1 
+{
+    height: 80px;
+    width: 154px;
+    display: block;
+    margin: 20px 0px;
+}
+.btn1 button
+{
+    height: 51px;
+    width: 254px;
+    border: 0;
+    font-size:22px;
+    border-radius: 25px;
+    margin-top: 10px;
+    margin-left:2px;
+    color: #fff;
+    background-color: rgb(250, 108, 6);
+    box-shadow: 0px 0px 16px rgb(48, 46, 46);
+}
+
+
+/*footer*/
+
+footer
+{
+    height: 150px;
+    width: auto;
+    background-color: rgb(202, 193, 193);
+    box-shadow: 0px 0px 20px silver;
+    margin-top: 100px;
+}
+.contact h2
+{
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 2px;
+}
+.contact i
+{
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+footer h4{
+    height: 35px;
+    width: auto;
+    margin-top:47px;
+    color: #fff;
+    background-color: #111010;
+   text-align: center;
+    padding-top: 4px;
+    font-size: 20px;
+}

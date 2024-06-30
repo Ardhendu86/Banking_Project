@@ -1,0 +1,272 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+/* here we will write a code header*/
+
+.ctn1{
+    height: 130px;
+    width: auto;
+    border-radius: 15px;
+    box-shadow: 0px 0px 25px rgb(107, 105, 105);
+    position: relative;
+    margin-top: 10px;
+}
+
+.ctn1 img{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    border: 1px solid cornflowerblue;
+    border-radius: 50px;
+    margin-top: 10px;
+    margin-left: 30px;
+    background-color:rgb(73, 63, 139);
+}
+.ctn1 h1{
+    position: absolute;
+    font-size: 35px;
+    font-weight: 200;
+    margin-top: 58px;
+    margin-left: 140px;
+    color:#111010;
+    font-style: italic;
+}
+
+ .btn a
+{
+    position: absolute;
+}
+.btn button
+{
+    width: 120px;
+    border-radius: 15px;
+    font-size: 35px;
+    margin-top: 45px;
+    border: none;
+    background-color: #fff;
+    color: #111010;
+}
+
+.btn .sign
+{
+    margin-left: 740%;
+   
+   
+}
+.btn .login
+{
+    margin-left: 590%;
+   
+}
+.btn .admin
+{
+    margin-left: 890%;
+   
+}
+ .sign:hover
+{
+   border: 1px solid black;
+}
+.login:hover
+{
+   border: 1px solid black;
+}
+.admin:hover
+{
+   border: 1px solid black;
+}
+
+/*------------------------------*/
+
+/*here we will write a code aside*/
+
+
+form
+{
+    height: 400px;
+    width: 70%;
+    margin-top: 50px;
+    margin-left: 260px;
+    position: relative;
+    box-shadow: 0px 0px 15px rgb(107, 105, 105);
+    border-radius: 25px;
+}
+form .first
+{
+    height:400px;
+    width: 50px;
+    border-bottom:none ;
+    border-top: none;
+    border-left: none;  
+    background: rgb(53, 53, 189);
+    position: absolute;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+.circle
+{
+    height: 200px;
+    width: 200px;
+    box-shadow: 0px 0px 15px rgb(100, 95, 95);
+    border-radius: 50%;
+    position: absolute;
+    margin-left: 120px;
+    margin-top: 110px;
+}
+.circle img
+{
+    height: 155px;
+    width: 152px;
+    margin-top: 8px;
+    margin-left: 20px;
+}
+form .second
+{
+    height: 400px;
+    width: 70px;
+    /*position: absolute;*/
+    border-bottom:none ;
+    border-top: none;
+    border-left: none;  
+    background:rgb(136, 1, 148);
+    margin-right: 100vh;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+form p
+{
+    font-size: 30px;
+    margin-top: 25px;
+    margin-left: 752px;
+    position: absolute;
+}
+.email
+{
+    height: 44px;
+    width: 280px;
+    /* border: 1px solid black; */
+    box-shadow: 0px 0px 15px rgb(100, 95, 95);
+    border-radius: 30px;
+    margin-top: 100px;
+    margin-left: 690px;
+    position: absolute;
+    text-align: center;
+}
+.email input
+{
+    height: 38px;
+    border-radius: 10px;
+    font-size: 20px;
+    text-align: center;
+    border: 0;
+    outline: none;
+    padding-top:8px;
+}
+
+.email i{
+    font-size:25px;
+    position: absolute;
+    margin-top: 8px;
+    margin-left: 2px;
+  
+}
+.password
+{
+    height: 44px;
+    width: 280px;
+    box-shadow: 0px 0px 15px rgb(100, 95, 95);
+    border-radius: 30px;
+    margin-top: 170px;
+    margin-left: 690px;
+    position: absolute;
+    text-align: center;  
+}
+.password .pass
+{
+    height: 38px;
+    border-radius: 10px;
+    font-size: 20px;
+    text-align: center;
+    border: none;
+    outline: none;
+    padding-left: 4px;
+    padding-top: 10px;
+}
+.password i
+{
+    font-size:25px;
+    position: absolute;
+    margin-top: 8px;
+    margin-left: 2px;
+}
+
+.btn1
+{
+    height: 80px;
+    width: 280px;
+    /* border: 1px solid black; */
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 693px;
+}
+.btn1 button
+{
+    height: 40px;
+    width: 280px;
+    font-size: 25px;
+    margin-top: 18px;
+    border-radius:20px;
+    background: #111010;
+    color: #fff;
+    box-shadow: 0px 0px 15px rgb(107, 105, 105);
+    border: 0;
+}
+.btn1 .cancel
+{
+    
+    background: #fff;
+    color: #111010;
+   
+}
+
+/*-------------------------*/
+
+/* here we will write a code footer*/
+
+footer
+{
+    height: 150px;
+    width: auto;
+    background-color: rgb(202, 193, 193);
+    box-shadow: 0px 0px 20px silver;
+    margin-top: 75px;
+}
+.contact h2
+{
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 2px;
+}
+.contact i
+{
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+footer h4{
+    height: 35px;
+    width: auto;
+    margin-top:36px;
+    color: #fff;
+    background-color: #111010;
+    font-size: 20px;
+    padding-top: 4px;
+    text-align: center;
+}
+
+
+/*-------------------*/

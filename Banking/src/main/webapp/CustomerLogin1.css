@@ -1,0 +1,121 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body
+{
+    background-image: url(mobile.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat;
+}
+
+marquee
+{
+    font-size: 45px;
+    color: mediumslateblue;
+    margin-top: 10px;
+    
+}
+
+form
+{
+    height: 600px;
+    width: 900px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px gainsboro;
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 300px;
+    background-color: #fff;
+}
+.ctn1
+{
+    height: 550px;
+    width: 540px;
+    /* border: 1px solid; */
+    margin-top: 24px;
+    background-image: url(custlogin1.avif);
+    background-size: cover;
+}
+.ctn2
+{
+    height: 550px;
+    width: 320px; 
+    margin-top: 32px;
+}
+.ctn2 h1
+{
+    margin-left: 24px;
+    margin-top: 20px;
+}
+
+.ctn2 .custid
+{
+    height: 50px;
+    width: 290px;
+    border: 1px solid;
+    margin-left: 16px;
+    margin-top: 20px;
+    border-top: none;
+    border-left: none;
+    border-right: none; 
+}
+.custid i{
+    font-size: 20px;
+    margin-left: 8px;
+}
+.custid input{
+    border: 0;
+    font-size: 20px;
+    padding-top: 12px;
+    padding-left: 5px;
+    outline: none;
+}
+.ctn2 .pass
+{
+    height: 50px;
+    width: 290px;
+    border: 1px solid;
+    margin-left: 16px;
+    margin-top: 25px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    
+}
+.pass input{
+    border: 0;
+    font-size: 20px;
+    padding-top: 12px;
+    padding-left: 5px;
+    outline: none;
+}
+.pass i{
+    font-size: 20px;
+    margin-left: 8px;
+}
+
+.ctn2 .btn
+{
+    height: 150px;
+    width: 290px;
+    /* border: 1px solid; */
+    margin-left: 16px;
+    margin-top: 20px;
+    display: block;
+}
+.btn button
+{
+    height: 50px;
+    width: 250px;
+    font-size: 25px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 50px;
+}
+.btn .log
+{
+    background-color: black;
+    color: #fff;
+}

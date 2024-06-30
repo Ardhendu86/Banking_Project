@@ -1,0 +1,120 @@
+*{
+    margin: 0px;
+    padding: 0px;
+     box-sizing: border-box;  
+}
+body{
+    background-size: cover;
+    background-image: url(homeback.jpg);
+}
+.ctn1{
+    height: 660px;
+    width: 72%;
+    border-radius: 25px;
+    box-shadow: 0px 0px 15px #ececec; 
+    background-color:#fff ;
+    position: relative;
+    display: flex;
+    margin-top: 10px;
+    margin-left: 238px;
+    margin-top: 40px;
+    position: fixed;
+}
+
+.ctn1 img{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    margin-top: 10px;
+    margin-left: 30px;
+    background-color:rgb(73, 63, 139);
+}
+.ctn1 h1{
+    position: absolute;
+    font-size: 35px;
+    font-weight: 200;
+    margin-top: 58px;
+    margin-left: 140px;
+    color:#111010;
+    font-style: italic;
+}
+
+ .btn a
+{
+    position: absolute;
+}
+.btn button
+{
+    width: 120px;
+    border-radius: 15px;
+    font-size: 35px;
+    margin-top: 45px;
+    border: none;
+}
+
+.btn .sign
+{
+    margin-left: 630%;
+    background-color: #fff;
+   
+}
+.btn .login
+{
+    margin-left: 510%;
+    background-color: #fff;
+}
+.btn .admin
+{
+    margin-left: 748%;
+    background-color: #fff;
+}
+ .sign:hover
+{
+   border: 1px solid black;
+}
+.login:hover
+{
+   border: 1px solid black;
+}
+.admin:hover
+{
+   border: 1px solid black;
+}
+
+.ctn2
+{
+    height: 495px;
+    width: 98%;
+    margin-top: 135px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 10px;
+}
+
+.ctn2 .pic
+{
+    height: 510px;
+    width: 820px;
+    background-image:url(bankhomeimg.jpg) ;
+    background-size: cover;
+    background-position: center;
+    
+}
+.ctn2 .btn1
+{
+    height: 475px;
+    width: 400px;
+    margin-top: 2px;
+}
+.btn1 h2
+{
+    padding-top: 30px;
+    font-size: 55px;
+    color: rgb(67, 27, 105);
+}
+.btn1 p
+{
+    padding-top: 30px;
+    font-size: 15px;
+}
